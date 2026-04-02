@@ -42,5 +42,6 @@ Os preços foram pesquisados nas plataformas 99Freelas, Workana e Glassdoor.
 Desenvolvido por: Bruno Augusto S. P. — 2026
 
 
-Prévia
+Prévia <img width="1882" height="850" alt="image" src="https://github.com/user-attachments/assets/44eab12c-f5bd-4247-ad91-33bc5d1e3be7" />
+
 
