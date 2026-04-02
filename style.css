@@ -1,0 +1,180 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe;
+}
+
+header {
+    background-color: #3a5bd9;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.banner {
+    background-color: #3a5bd9;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-content {
+    width: 80%;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #5c7cff;
+}
+
+nav a:hover {
+    background-color: #7b96ff;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.categoria {
+    margin-bottom: 2rem;
+}
+
+.produto {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #c5d0f5;
+}
+
+.produto h3 {
+    color: #3a5bd9;
+}
+
+.produto.selecionado {
+    background-color: #dce6ff;
+    border-color: #3a5bd9;
+}
+
+.preco {
+    font-weight: bold;
+    color: #3a5bd9;
+    margin-bottom: 1rem;
+}
+
+.adicionar {
+    background-color: #3a5bd9;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adicionar:hover {
+    background-color: #5c7cff;
+}
+
+.adicionar.adicionado {
+    background-color: #aaa;
+}
+
+#orcamento {
+    background-color: #d6e0ff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+#lista-pedido {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-pedido li {
+    padding: 6px 0;
+    border-bottom: 1px solid #b0c0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+#btn-limpar {
+    background-color: #3a5bd9;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+#btn-limpar:hover {
+    background-color: #5c7cff;
+}
+
+#contato {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a {
+    background-color: #3a5bd9;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+.redes-sociais a:hover {
+    background-color: #5c7cff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3a5bd9;
+    color: white;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .categoria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .categoria h2 {
+        grid-column: 1 / -1;
+    }
+}
